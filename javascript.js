@@ -441,3 +441,20 @@ console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
 */
 
 ////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Button Page</title>
+</head>
+<body>
+    <button onclick="buttonClicked()">Click Me!</button>
+
+    <script>
+        function buttonClicked() {
+            alert("Button was clicked!");
+        }
+    </script>
+</body>
+</html>
