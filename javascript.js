@@ -430,31 +430,31 @@ const drink = age >= 18 ? 'wine 🍷' : 'water 💧';
 console.log(drink);
 
 let drink2;
-if (age >= 18) {
-  drink2 = 'wine 🍷';
-} else {
-  drink2 = 'water 💧';
-}
-console.log(drink2);
+// if (age >= 18) {
+//   drink2 = 'wine 🍷';
+// } else {
+//   drink2 = 'water 💧';
+// }
+// console.log(drink2);
 
-console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
-*/
+// console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
+// */
 
-////////////////////////////////////
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Button Page</title>
-</head>
-<body>
-    <button onclick="buttonClicked()">Click Me!</button>
+// ////////////////////////////////////
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>Simple Button Page</title>
+// </head>
+// <body>
+//     <button onclick="buttonClicked()">Click Me!</button>
 
-    <script>
-        function buttonClicked() {
-            alert("Button was clicked!");
-        }
-    </script>
-</body>
-</html>
+//     <script>
+//         function buttonClicked() {
+//             alert("Button was clicked!");
+//         }
+//     </script>
+// </body>
+// </html>
